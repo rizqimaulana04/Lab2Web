@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+header {
+    padding: 10px 0;
+    font-size: 18px;
+}
+nav {
+    background: #20A759;
+    color:#fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+    margin-right: 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+    color: #FF5733;
+}
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    border-color: #FF5733;
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+#intro h2 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+#intro h3 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+#intro p {
+    text-align: justify;
+}
+    /* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #FFA500;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    background: #FFD700;
+}
+.btn-primary {
+    background: #E42A42;
+}
